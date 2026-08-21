@@ -22,6 +22,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import aliSrc from "@/assets/ali.png";
+import schoolSrc from "@/assets/school.png";
 
 type Language = "ar" | "en";
 
@@ -703,7 +705,7 @@ export default function CampaignPage() {
         <div
           className="absolute inset-0 bg-cover bg-center opacity-[0.055] grayscale"
           style={{
-            backgroundImage: "url('/Ali-s-Website/school.png')",
+            backgroundImage: `url(${schoolSrc})`,
           }}
         />
 
@@ -721,7 +723,7 @@ export default function CampaignPage() {
             <div className="absolute bottom-10 size-[420px] rounded-full bg-[var(--campaign-gold)] opacity-80 max-md:size-[280px]" />
 
             <img
-              src="/Ali-s-Website/ali.png"
+              src={aliSrc}
               alt="Ali Samer Sabah"
               className="relative scale-90 z-10 max-h-[760px] w-auto object-contain "
             />
