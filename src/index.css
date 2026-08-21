@@ -47,3 +47,7 @@
 
   --campaign-on-navy: #f7f3eb;
 }
+
+html {
+  scroll-behavior: smooth;
+}
