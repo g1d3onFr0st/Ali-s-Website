@@ -703,7 +703,7 @@ export default function CampaignPage() {
         <div
           className="absolute inset-0 bg-cover bg-center opacity-[0.055] grayscale"
           style={{
-            backgroundImage: "url('/school.png')",
+            backgroundImage: "url('/Ali-s-Website/school.png')",
           }}
         />
 
@@ -721,7 +721,7 @@ export default function CampaignPage() {
             <div className="absolute bottom-10 size-[420px] rounded-full bg-[var(--campaign-gold)] opacity-80 max-md:size-[280px]" />
 
             <img
-              src="/ali.png"
+              src="/Ali-s-Website/ali.png"
               alt="Ali Samer Sabah"
               className="relative scale-90 z-10 max-h-[760px] w-auto object-contain "
             />
