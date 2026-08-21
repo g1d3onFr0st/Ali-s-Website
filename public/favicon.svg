@@ -1,0 +1,105 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 512 512"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">School Parliament Campaign Favicon</title>
+  <desc id="desc">A navy and gold shield with an open book and star.</desc>
+
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#DDB465" />
+      <stop offset="55%" stop-color="#C69243" />
+      <stop offset="100%" stop-color="#966522" />
+    </linearGradient>
+  </defs>
+
+  <!-- Star -->
+  <path
+    fill="url(#gold)"
+    d="M256 27l13.6 27.6 30.4 4.4-22 21.4 5.2 30.3L256 96.4l-27.2 14.3 5.2-30.3-22-21.4 30.4-4.4z"
+  />
+
+  <!-- Shield -->
+  <path
+    fill="#071E32"
+    d="M256 83c67 0 129 19 171 47v112c0 96-56 167-171 226C141 409 85 338 85 242V130c42-28 104-47 171-47z"
+  />
+
+  <!-- Gold shield border -->
+  <path
+    fill="none"
+    stroke="url(#gold)"
+    stroke-width="18"
+    stroke-linejoin="round"
+    d="M256 92c62 0 119 17 162 42v108c0 88-51 154-162 211C145 396 94 330 94 242V134c43-25 100-42 162-42z"
+  />
+
+  <!-- Inner cream border -->
+  <path
+    fill="none"
+    stroke="#F4EFE6"
+    stroke-width="8"
+    stroke-linejoin="round"
+    opacity="0.95"
+    d="M256 107c55 0 106 14 147 36v98c0 78-45 138-147 192-102-54-147-114-147-192v-98c41-22 92-36 147-36z"
+  />
+
+  <!-- Left book page -->
+  <path
+    d="M256 219c-26-30-61-44-104-41v115c43-3 78 9 104 37z"
+    fill="#F4EFE6"
+    stroke="url(#gold)"
+    stroke-width="10"
+    stroke-linejoin="round"
+  />
+
+  <!-- Right book page -->
+  <path
+    d="M256 219c26-30 61-44 104-41v115c-43-3-78 9-104 37z"
+    fill="#F4EFE6"
+    stroke="url(#gold)"
+    stroke-width="10"
+    stroke-linejoin="round"
+  />
+
+  <!-- Book center -->
+  <path
+    d="M256 219v111"
+    stroke="url(#gold)"
+    stroke-width="8"
+    stroke-linecap="round"
+  />
+
+  <!-- Pen nib -->
+  <path
+    fill="url(#gold)"
+    d="M256 237l25 35-25 62-25-62z"
+  />
+
+  <circle
+    cx="256"
+    cy="271"
+    r="8"
+    fill="#071E32"
+  />
+
+  <path
+    d="M256 279v33"
+    stroke="#071E32"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+
+  <!-- Bottom diamond -->
+  <path
+    d="M256 438l17 17-17 17-17-17z"
+    fill="url(#gold)"
+  />
+
+  <path
+    d="M256 446l9 9-9 9-9-9z"
+    fill="#071E32"
+  />
+</svg>
