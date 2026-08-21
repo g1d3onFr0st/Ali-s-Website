@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  /* Main campaign palette */
+  --campaign-background: #f4efe6;
+  --campaign-surface: #f7f3eb;
+  --campaign-surface-strong: #eee5d7;
+
+  --campaign-foreground: #071e32;
+  --campaign-foreground-soft: #334354;
+  --campaign-muted: #53606c;
+
+  --campaign-navy: #071e32;
+  --campaign-navy-deep: #051827;
+
+  --campaign-gold: #b77e2d;
+  --campaign-gold-light: #d2a04f;
+
+  --campaign-border: rgb(183 126 45 / 25%);
+  --campaign-header: rgb(247 243 235 / 95%);
+
+  /* Things that sit ON navy and should stay light */
+  --campaign-on-navy: #ffffff;
+}
+
+.dark {
+  --campaign-background: #061827;
+  --campaign-surface: #0a2235;
+  --campaign-surface-strong: #0d293f;
+
+  --campaign-foreground: #f4efe6;
+  --campaign-foreground-soft: #d5d0c7;
+  --campaign-muted: #aaa79f;
+
+  /*
+   * Navy-colored decorative areas become slightly lighter than
+   * the page background so they remain visible.
+   */
+  --campaign-navy: #0b2941;
+  --campaign-navy-deep: #03111d;
+
+  --campaign-gold: #c69243;
+  --campaign-gold-light: #ddb465;
+
+  --campaign-border: rgb(198 146 67 / 30%);
+  --campaign-header: rgb(6 24 39 / 96%);
+
+  --campaign-on-navy: #f7f3eb;
+}
