@@ -599,6 +599,7 @@ export default function CampaignPage() {
       lang={language}
       className={`
     min-h-screen overflow-hidden
+    scroll-smooth
     bg-[var(--campaign-background)]
     text-[var(--campaign-foreground)]
     selection:bg-[var(--campaign-gold)]
