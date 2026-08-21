@@ -10,7 +10,7 @@ export default defineConfig({
     babel({ presets: [reactCompilerPreset()] }),
     tailwindcss(),
   ],
-  // base: "./",
+  base: "/Ali-s-Website/",
   server: {
     port: 2010,
     open: true,
